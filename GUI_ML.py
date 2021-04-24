@@ -32,7 +32,7 @@ class GUI(Frame):
 
     def buttonClick(self):
     """ handle button click event and output text from entry area"""
-    print('hello')    # Trigger action tommorow cause it's 2:30
+    print('hello')    # Trigger action tommorow
 
 
 
