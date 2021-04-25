@@ -7,7 +7,6 @@ from tkinter import ttk
 
 gui = Tk()
 gui.geometry("300x300")
-
 gui.title('Machine Learning GUI')
 
 class GUI(Frame):
@@ -22,15 +21,13 @@ class GUI(Frame):
         self.fnameEntry = Entry(master)
         self.fnameEntry.grid()
 
-
-
         self.submitButton = Button(master, command=self.buttonClick, text="Submit")
         self.submitButton.grid()
 
-
     def buttonClick(self,master=None):
         print('hello')
-        
+
+
 
 if __name__ == "__main__":
     guiFrame = GUI()
